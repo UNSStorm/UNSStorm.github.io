@@ -9,6 +9,20 @@
   text-align: center;
 }
 
+html {
+  scrollbar-color: #545454 #211f1f;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #211f1f;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #545454;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
