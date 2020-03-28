@@ -172,12 +172,16 @@ nav {
 }
 
 #projects {
-    background: url('https://images.pexels.com/photos/606542/pexels-photo-606542.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat;
+    background-image: url('https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 200px;
     color: #f5f5f5;
     font-size: 50px;
     border-top: #00a8ff 5px solid;
