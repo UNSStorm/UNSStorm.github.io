@@ -34,8 +34,10 @@ nav {
 }
 
 .nav-header:hover {
-    border-bottom: #00a8ff;
-    border-style: solid 5px;
+    text-decoration: none;
+    color: #00a8ff;
+    display: inline-block;
+    margin: 0 50px;
     transform: scale(1.3);
     transition: 0.4s;
 }
@@ -192,7 +194,7 @@ nav {
     background-repeat: no-repeat;
     padding: 200px;
     background-image: url('https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    border-top: #00a8ff 5px solid;
+    border-top: #000 5px solid;
     border-bottom: #000 5px solid;
     z-index: 10;
 }
@@ -206,7 +208,7 @@ nav {
     color: #f5f5f5;
     font-size: 50px;
     background-image: url('https://images.pexels.com/photos/3879060/pexels-photo-3879060.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    border-top: #00a8ff 5px solid;
+    border-top: #000 5px solid;
     border-bottom: #000 5px solid;
     z-index: 10;
 }
