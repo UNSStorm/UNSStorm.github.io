@@ -264,6 +264,10 @@ nav {
   z-index: 1;
 }
 
+.about_card {
+  padding: 25px;
+}
+
 .about-card {
   margin: 10px 10px;
   background-color: whitesmoke;
