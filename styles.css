@@ -304,7 +304,7 @@ nav {
 .prof {
   font-size: 25px;
   position: absolute;
-  top: 140px;
+  top: 145px;
   color: #878787;
 }
 
@@ -313,12 +313,12 @@ nav {
   height: 1.5px;
   width: 50px;
   position: absolute;
-  top: 190px;
+  top: 195px;
 }
 
 .bio {
   position: absolute;
-  top: 220px;
+  top: 225px;
   color: #878787;
   text-align: center;
   font-weight: 18px;
@@ -327,8 +327,8 @@ nav {
 
 .contact-button {
   position: absolute;
-  bottom: 30px;
-  background-color: #000000;
+  bottom: 25px;
+  background-color: #878787;
   border: none;
   font-size: 20px;
   padding: 13px 25px;
