@@ -346,6 +346,14 @@ nav {
   border-radius: 8px;
 }
 
+.card:hover .pic {
+  -webkit-transform: scale(0.5, 0.35) translateY(-650px);
+          transform: scale(0.5, 0.35) translateY(-650px);
+  background-size: 100% 150%;
+  background-position: 0 -25px;
+  border-radius: 50%;
+}
+
 #circle {
   border-radius: 50%;
 }
