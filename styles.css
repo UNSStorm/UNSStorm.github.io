@@ -83,6 +83,10 @@ nav {
   transition: 0.4s;
 }
 
+.nav-links li a:hover {
+  border-bottom: solid 2.5px #00a8ff;
+}
+
 .title {
   font-family: 'Pacifico', cursive;
   display: -webkit-box;
