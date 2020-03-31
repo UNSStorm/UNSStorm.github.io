@@ -220,48 +220,8 @@ nav {
   z-index: 1;
 }
 
-.about {
-  color: #000000;
-  background-color: #2d3436;
-  padding: 25px;
-}
-
-.storm {
-  font-family: sans-serif;
-  text-align: center;
-  max-width: 200px;
-  box-shadow: 0 0 10px rgba($color: #ffffff, $alpha: 0.7);
-  padding: 20px;
-  background-color: lightgray;
-}
-
-.profile__pic {
-  background-color: #636e72;
-  width: 200px;
-  height: 150px;
-  background-size: cover;
-  border-radius: 50%;
-  margin: 0 auto 20px auto;
-  display: block;
-}
-
-.profile__name {
-  font-size: 1.4em;
-  font-weight: bold;
-  margin-bottom: 5px;
-  text-decoration: underline;
-}
-
-.profile__job {
-  margin-bottom: 20px;
-  font-size: 1.1215em;
-}
-
-.profile__about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.9em;
+.about-card {
+  background-color: whitesmoke;
 }
 
 #circle {
