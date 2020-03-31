@@ -267,7 +267,7 @@ nav {
 .about-card {
   margin: 10px 10px;
   background-color: whitesmoke;
-  height: 450px;
+  height: 400px;
   width: 310px;
   position: relative;
   margin: auto;
@@ -333,6 +333,17 @@ nav {
   font-size: 20px;
   padding: 13px 25px;
   color: #f5f5f5;
+}
+
+.pic {
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/0.jpg");
+  position: absolute;
+  bottom: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 8px;
 }
 
 #circle {
