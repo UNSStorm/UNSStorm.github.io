@@ -278,9 +278,9 @@ nav {
   bottom: 0;
   left: 0;
   right: 0;
-  border-radius: 8px;
-  -webkit-box-shadow: 0 0 20px 10px #00000070;
-          box-shadow: 0 0 20px 10px #00000070;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 5px 15px -5px #000000f0;
+          box-shadow: 0 5px 15px -5px #000000f0;
   font-family: sans-serif;
 }
 
@@ -341,6 +341,7 @@ nav {
 
 .contact-button:hover {
   background-color: #0984e3;
+  cursor: pointer;
 }
 
 #circle {
