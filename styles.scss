@@ -13,6 +13,8 @@
 html {
   scrollbar-color: #545454 #211f1f;
   scrollbar-width: thin;
+  width: 100%;
+  height: 100vh;
 }
 
 ::-webkit-scrollbar {
@@ -72,6 +74,34 @@ nav {
   border-bottom: solid 2.5px #0984e3;
 }
 
+#blue {
+  color: #0984e3;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 1;
+  }
+
+  85% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+#logo {
+  animation: fade 10s ease infinite;
+}
+
+
+
 .title {
   letter-spacing: 2px;
   font-family: "Pacifico", cursive;
@@ -83,12 +113,17 @@ nav {
   border-top: #000 5px solid;
   font-size: 50px;
   text-align: center;
-  background-image: url("https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-image: url("https://images.pexels.com/photos/9044/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   width: 100%;
-  height: auto;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 260px;
+}
+
+.title-con {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .BUTTon {
@@ -185,7 +220,7 @@ nav {
   color: #f5f5f5;
   font-size: 50px;
   width: 100%;
-  height: auto;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px;
@@ -208,6 +243,8 @@ nav {
   border-top: #000 5px solid;
   border-bottom: #000 5px solid;
   z-index: 10;
+  width: 100%;
+  height: 100vh;
 }
 
 .overlay {
@@ -216,6 +253,7 @@ nav {
   height: 100%;
   background: #000;
   opacity: 0.5;
+  z-index: 0;
 }
 
 .z-index {
@@ -223,6 +261,10 @@ nav {
   z-index: 1;
 }
 
+#z-index {
+  color: #f5f5f5;
+  z-index: 1;
+}
 
 .about_card {
   padding: 25px;
@@ -293,6 +335,7 @@ nav {
   font-size: 20px;
   padding: 13px 25px;
   color: #f5f5f5;
+  transition: 0.2s linear;
 }
 
 
