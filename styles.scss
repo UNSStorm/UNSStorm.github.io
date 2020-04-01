@@ -74,27 +74,16 @@ nav {
   border-bottom: solid 2.5px #0984e3;
 }
 
-//whole sencentice
-
-//align left right ? ok ok
-
-//discord? i have to show you something
-
-//i just want everything to align with the designers bit      left to align with Designerif you go to       unsstorm.github.io
-
-// .slogin {} for now let it be in comment
-
-//ok
-
-// this one is one word
 
 .slogin {
   padding-left: 4.2rem;
+  color: white;
 }
 
 .title-sub {
   text-decoration: underline #0984e3;
   display: inline-block;
+  color: lightgrey;
 }
 
 #blue {
@@ -158,6 +147,7 @@ nav {
 }
 
 .BUTTon {
+  text-align: center;
   color: #0984e3;
   border-top: #000000 5px solid;
   font-size: x-large;

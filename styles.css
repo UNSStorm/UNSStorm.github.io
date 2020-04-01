@@ -90,12 +90,14 @@ nav {
 
 .slogin {
   padding-left: 4.2rem;
+  color: white;
 }
 
 .title-sub {
   -webkit-text-decoration: underline #0984e3;
           text-decoration: underline #0984e3;
   display: inline-block;
+  color: lightgrey;
 }
 
 #blue {
@@ -185,6 +187,7 @@ nav {
 }
 
 .BUTTon {
+  text-align: center;
   color: #0984e3;
   border-top: #000000 5px solid;
   font-size: x-large;
