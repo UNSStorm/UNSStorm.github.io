@@ -86,6 +86,7 @@ nav {
 }
 
 .title {
+  letter-spacing: 2px;
   font-family: "Pacifico", cursive;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -207,6 +208,7 @@ nav {
 }
 
 #projects {
+  letter-spacing: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -231,6 +233,7 @@ nav {
 }
 
 #about {
+  letter-spacing: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -342,6 +345,8 @@ nav {
 .contact-button:hover {
   background-color: #0984e3;
   cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 #circle {
