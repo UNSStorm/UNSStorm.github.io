@@ -93,6 +93,15 @@ nav {
   color: white;
 }
 
+#left {
+  padding-left: 4.2rem;
+}
+
+.btn {
+  color: white;
+  padding: 10px 20px;
+}
+
 .title-sub {
   -webkit-text-decoration: underline #0984e3;
           text-decoration: underline #0984e3;
@@ -100,8 +109,37 @@ nav {
   color: lightgrey;
 }
 
+.title-sub2 {
+  -webkit-animation: fades 3s ease;
+          animation: fades 3s ease;
+}
+
 #blue {
   color: #0984e3;
+}
+
+@-webkit-keyframes fades {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.5;
+  }
+  25% {
+    opacity: 1;
+  }
+}
+
+@keyframes fades {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.5;
+  }
+  25% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fade {
@@ -148,8 +186,8 @@ nav {
 
 #logo {
   padding-top: 20px;
-  -webkit-animation: fade 10s ease infinite;
-          animation: fade 10s ease infinite;
+  -webkit-animation: fade 5s ease infinite;
+          animation: fade 5s ease infinite;
 }
 
 .title {

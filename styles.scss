@@ -80,14 +80,41 @@ nav {
   color: white;
 }
 
+#left {
+  padding-left: 4.2rem;
+}
+
+.btn {
+  color: white;
+  padding: 10px 20px;
+}
+
 .title-sub {
   text-decoration: underline #0984e3;
   display: inline-block;
   color: lightgrey;
 }
 
+.title-sub2 {
+  animation: fades 3s ease;
+}
+
 #blue {
   color: #0984e3;
+}
+
+@keyframes fades {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.5;
+  }
+
+  25% {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
@@ -118,7 +145,7 @@ nav {
 
 #logo {
   padding-top: 20px;
-  animation: fade 10s ease infinite;
+  animation: fade 5s ease infinite;
 }
 
 .title {
