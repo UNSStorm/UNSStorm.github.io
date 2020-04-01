@@ -8,6 +8,7 @@
   -webkit-transition: 0.5s linear;
   transition: 0.5s linear;
   text-align: center;
+  background-attachment: fixed;
 }
 
 html {
