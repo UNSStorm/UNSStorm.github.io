@@ -43,7 +43,7 @@ nav {
   font-size: large;
 }
 
-o .nav-header:hover {
+.nav-header:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   -webkit-transition: 0.4s;
@@ -218,6 +218,7 @@ o .nav-header:hover {
   width: 100%;
   margin: 0 auto;
   text-align: left;
+  position: relative;
 }
 
 .BUTTon {
@@ -226,6 +227,38 @@ o .nav-header:hover {
   border-top: #000000 5px solid;
   font-size: x-large;
   padding: 50px 20px;
+}
+
+#lets {
+  padding-left: 4rem;
+  padding: 0;
+  position: absolute;
+  left: 6%;
+}
+
+#lets button a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+#lets button {
+  bottom: 25px;
+  background-color: #878787;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 13px 25px;
+  color: #f2f2f2;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  text-decoration: none;
+}
+
+#lets button:hover {
+  background-color: #0984e3;
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .github {
@@ -382,8 +415,8 @@ o .nav-header:hover {
   z-index: 1;
 }
 
-.about_card {
-  padding: 25px;
+#about_card {
+  padding: 50px;
 }
 
 .about-card {
@@ -399,8 +432,8 @@ o .nav-header:hover {
   left: 0;
   right: 0;
   border-radius: 16px;
-  -webkit-box-shadow: 0 5px 15px -5px #000000f0;
-          box-shadow: 0 5px 15px -5px #000000f0;
+  -webkit-box-shadow: 0 8px 18px -8px #000000;
+          box-shadow: 0 8px 18px -8px #000000;
   font-family: sans-serif;
 }
 
@@ -462,6 +495,7 @@ o .nav-header:hover {
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
   text-decoration: none;
+  border-radius: 8px;
 }
 
 .contact-button:hover {
@@ -472,6 +506,10 @@ o .nav-header:hover {
 }
 
 #circle {
+  border-radius: 50%;
+}
+
+#circle circle {
   border-radius: 50%;
 }
 /*# sourceMappingURL=styles.css.map */
