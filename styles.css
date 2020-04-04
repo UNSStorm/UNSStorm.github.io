@@ -136,50 +136,44 @@ nav {
 
 @-webkit-keyframes fade {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
-  15% {
+  25% {
     opacity: 0.5;
   }
-  35% {
-    opacity: 1;
+  50% {
+    opacity: 0;
   }
-  65% {
-    opacity: 1;
-  }
-  85% {
+  75% {
     opacity: 0.5;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
 @keyframes fade {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
-  15% {
+  25% {
     opacity: 0.5;
   }
-  35% {
-    opacity: 1;
+  50% {
+    opacity: 0;
   }
-  65% {
-    opacity: 1;
-  }
-  85% {
+  75% {
     opacity: 0.5;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
 #logo {
   padding-top: 20px;
-  -webkit-animation: fade 5s ease infinite;
-          animation: fade 5s ease infinite;
+  -webkit-animation: fade 5s ease;
+          animation: fade 5s ease;
 }
 
 .btn {
