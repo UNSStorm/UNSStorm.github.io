@@ -103,3 +103,9 @@ header {
     margin-left: 160px;
     margin-top: 20px;
 }
+
+.subtitle {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 160px;
+}
