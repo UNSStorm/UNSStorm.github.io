@@ -15,7 +15,7 @@
 }
 
 .title {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-left: 160px;
 }
 
@@ -65,7 +65,7 @@ header {
 
 }
 
-button {
+.nav-button {
     padding-left: 50px;
     padding: 9px 25px;
     border-radius: 50px;
@@ -75,8 +75,31 @@ button {
     background-color: rgba(0, 0, 0, 0);
 }
 
-button:hover {
+.nav-button:hover {
     border-radius: 0px;
     border: solid;
     color: #838383;
+}
+
+.products-btn {
+
+    padding: 9px 25px;
+    border: solid;
+    cursor: pointer;
+    transition: all .3s ease 0s;
+    background-color: rgba(0, 0, 0, 0);
+    color: #edf0f1;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.products-btn:hover {
+    padding: 9px 25px;
+    border: solid;
+    cursor: pointer;
+    transition: all .3s ease 0s;
+    background-color: #edf0f1;
+    color: rgba(0, 0, 0);
+    margin-left: 160px;
+    margin-top: 20px;
 }
