@@ -61,12 +61,12 @@ header {
 }
 
 .nav-links li a:hover {
-    color: #838383;
+    color: #7a7a7a;
 
 }
 
 button {
-    padding-left: 30px;
+    padding-left: 50px;
     padding: 9px 25px;
     border-radius: 50px;
     border: solid;
@@ -80,4 +80,3 @@ button:hover {
     border: solid;
     color: #838383;
 }
-
